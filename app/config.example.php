@@ -11,4 +11,5 @@ define('DB_USER', 'root');
 define('DB_PASS', '');          // Your DBngin MySQL password
 define('DB_NAME', 'socialngine_db');
 define('TIMEZONE', 'Africa/Lagos');  // Adjust to your timezone
-define('ENCRYPTION_KEY', '202dd507882ef55dbbc23f7e84dcfc8d');
+// Generate with: php -r "echo bin2hex(random_bytes(16));"
+define('ENCRYPTION_KEY', 'GENERATE_YOUR_OWN_KEY_HERE');

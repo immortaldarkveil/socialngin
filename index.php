@@ -61,7 +61,7 @@ ini_set('max_execution_time', 300);
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-define('ENVIRONMENT', 'development');
+define('ENVIRONMENT', getenv('CI_ENV') ?: 'development');
 
 /*
  *---------------------------------------------------------------
